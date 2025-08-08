@@ -4,7 +4,7 @@ import net.fabricmc.api.ModInitializer
 import org.slf4j.LoggerFactory
 
 object ImyvmGenericFocus : ModInitializer {
-    private val logger = LoggerFactory.getLogger("imyvmgenericfocus")
+    private val logger = LoggerFactory.getLogger("imyvm-generic-focus")
 
 	override fun onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
