@@ -20,19 +20,13 @@
 				"value": "com.imyvm.genefocus.ImyvmGenericFocus",
 				"adapter": "kotlin"
 			}
-		],
-		"client": [
-			{
-				"value": "com.imyvm.genefocus.ImyvmGenericFocusClient",
-				"adapter": "kotlin"
-			}
 		]
 	},
 	"mixins": [
 		"imyvmgenericfocus.mixins.json",
 		{
 			"config": "imyvmgenericfocus.client.mixins.json",
-			"environment": "client"
+			"environment": "server"
 		}
 	],
 	"depends": {
